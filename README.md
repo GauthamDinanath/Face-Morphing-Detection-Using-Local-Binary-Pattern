@@ -34,7 +34,7 @@ AMSL Face Morph Dataset
      - Experiment 4: Mixed dataset performance
   
   ## Results: 
-  In all the experiments, BSIF showed the best overall performance when compared to LBP and HoG but LBP gave the lowest APCER values
+  In all the experiments, BSIF showed the best overall performance when compared to LBP and HoG but LBP gave the lowest APCER values.
   
   ![4](https://user-images.githubusercontent.com/64839751/92324286-9e24b380-f040-11ea-9c80-3adb8c549e42.png)
   
