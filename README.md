@@ -15,7 +15,7 @@ AMSL Face Morph Dataset
 `Matlab 2019b`
 
 ## Approach:
-![1](https://user-images.githubusercontent.com/64839751/92324287-9ebd4a00-f040-11ea-92d0-3706bd30240f.png)
+![1](https://user-images.githubusercontent.com/64839751/92324440-f8724400-f041-11ea-9f1c-04789f1b3fed.png)
 
 - **Feature Extraction Method used:**
     - Local Binary Pattern
