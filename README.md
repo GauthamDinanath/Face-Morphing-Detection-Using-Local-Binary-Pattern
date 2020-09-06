@@ -15,17 +15,28 @@ AMSL Face Morph Dataset
 `Matlab 2019b`
 
 ## Approach:
+![1](https://user-images.githubusercontent.com/64839751/92324287-9ebd4a00-f040-11ea-92d0-3706bd30240f.png)
 
 - **Feature Extraction Method used:**
- - Local Binary Pattern
- - Histogram of Oriented Gradients
- - Binarized Statistical Image Features
+ -- Local Binary Pattern
+ -- Histogram of Oriented Gradients
+ -- Binarized Statistical Image Features
+ 
+ ![2](https://user-images.githubusercontent.com/64839751/92324285-9d8c1d00-f040-11ea-8317-b3cf6ddb2193.png)
+ 
+ ![3](https://user-images.githubusercontent.com/64839751/92324288-9ebd4a00-f040-11ea-98e2-3518d144b0d5.png)
+ 
  
  - **Experiments:**
-  - Experiment 1: Performance on FRGC dataset
-  - Experiment 2: Performance on Noised FRGC dataset
-  - Experiment 3: Cross-Dataset performance
-  - Experiment 4: Mixed dataset performance
+  -- Experiment 1: Performance on FRGC dataset
+  -- Experiment 2: Performance on Noised FRGC dataset
+  -- Experiment 3: Cross-Dataset performance
+  -- Experiment 4: Mixed dataset performance
   
-  ## Results:
+  ## Results: 
+  In all the experiments, BSIF showed the best overall performance when compared to LBP and HoG but LBP gave the lowest APCER values
+  
+  ![4](https://user-images.githubusercontent.com/64839751/92324286-9e24b380-f040-11ea-9c80-3adb8c549e42.png)
+  
+  
 
