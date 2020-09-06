@@ -17,7 +17,7 @@ AMSL Face Morph Dataset
 ## Approach:
 ![1](https://user-images.githubusercontent.com/64839751/92324440-f8724400-f041-11ea-9f1c-04789f1b3fed.png)
 
-- **Feature Extraction Method used:**
+- **Feature Extraction Methods Used:**
     - Local Binary Pattern
     - Histogram of Oriented Gradients
     - Binarized Statistical Image Features
