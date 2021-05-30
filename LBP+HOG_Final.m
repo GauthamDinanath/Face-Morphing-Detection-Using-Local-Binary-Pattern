@@ -20,6 +20,7 @@ ire=imageSet(Ir);
 for i=1:imo.Count
     
 imorp=read(imo,i);
+#featuresm(i,:)=extractHOGFeatures(imorp);
 a=extractLBPFeatures(imorp,'NumNeighbors',8,'Radius',1,'CellSize',[80,80]);
 b=extractLBPFeatures(imorp,'NumNeighbors',8,'Radius',2);
 c=extractLBPFeatures(imorp,'NumNeighbors',16,'Radius',2);
@@ -30,6 +31,7 @@ featuresm(:,end+1)=1;
 for i=1:ire.Count
     
 ireal=read(ire,i);
+#featuresr(i,:)=extractHOGFeatures(imorp);
 a=extractLBPFeatures(ireal,'NumNeighbors',8,'Radius',1,'CellSize',[80,80]);
 b=extractLBPFeatures(ireal,'NumNeighbors',8,'Radius',2);
 c=extractLBPFeatures(ireal,'NumNeighbors',16,'Radius',2);
